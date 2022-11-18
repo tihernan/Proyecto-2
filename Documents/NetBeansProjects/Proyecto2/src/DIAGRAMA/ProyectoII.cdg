@@ -7,7 +7,7 @@
       <Constructors/>
       <Methods/>
     </Class>
-    <Class name="Student" package="" visibility="public" xPosition="558.0" yPosition="443.0">
+    <Class name="Student" package="" visibility="public" xPosition="867.0" yPosition="443.0">
       <Fields/>
       <Constructors/>
       <Methods/>
@@ -32,12 +32,23 @@
       <Constructors/>
       <Methods/>
     </Class>
+    <Class name="Person" package="" visibility="public" xPosition="558.0" yPosition="116.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Professor" package="" visibility="public" xPosition="965.0" yPosition="248.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
   </ClassDiagramComponents>
   <ClassDiagramRelations>
     <HasRelation name="has" source="Functions" target="File" type="Default" sourceCardinality="0..1" targetCardinality="1..1"/>
-    <UseRelation name="use" source="Main" target="Functions" sourceCardinality="1..1" targetCardinality="1..1"/>
     <UseRelation name="use" source="Functions" target="StudentsDB" sourceCardinality="1..1" targetCardinality="1..1"/>
     <UseRelation name="use" source="StudentsList" target="StudentsDB" sourceCardinality="1..1" targetCardinality="1..1"/>
-    <IsRelation name="is" source="Student" target="StudentsList"/>
+    <UseRelation name="use" source="Main" target="Functions" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="Student" target="Person"/>
+    <IsRelation name="is" source="Professor" target="Person"/>
   </ClassDiagramRelations>
 </ClassDiagram>
