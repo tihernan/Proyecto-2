@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="ProyectoII">
+  <ClassDiagramComponents>
+    <Class name="Main" package="" visibility="public" xPosition="98.0" yPosition="64.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Student" package="" visibility="public" xPosition="558.0" yPosition="443.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="StudentsList" package="" visibility="public" xPosition="558.0" yPosition="309.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="File" package="" visibility="public" xPosition="98.0" yPosition="443.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="StudentsDB" package="" visibility="public" xPosition="326.0" yPosition="266.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Functions" package="" visibility="public" xPosition="98.0" yPosition="266.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="has" source="Functions" target="File" type="Default" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <UseRelation name="use" source="Main" target="Functions" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation name="use" source="Functions" target="StudentsDB" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation name="use" source="StudentsList" target="StudentsDB" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="Student" target="StudentsList"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
