@@ -68,25 +68,25 @@ public class Sistema extends javax.swing.JFrame {
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addContainerGap()
+                .addContainerGap(194, Short.MAX_VALUE)
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 246, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel2)
-                .addContainerGap(190, Short.MAX_VALUE))
+                .addGap(126, 126, 126))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(30, 30, 30)
-                .addComponent(jLabel1)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel2)
                 .addGap(30, 30, 30))
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGap(28, 28, 28)
+                .addComponent(jLabel1)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 520, 100));
+        jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 640, 100));
 
         buttonlist.setBackground(new java.awt.Color(153, 255, 255));
         buttonlist.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
@@ -97,7 +97,7 @@ public class Sistema extends javax.swing.JFrame {
                 buttonlistActionPerformed(evt);
             }
         });
-        jPanel1.add(buttonlist, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 120, 370, -1));
+        jPanel1.add(buttonlist, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 120, 370, -1));
 
         buttonborrar.setBackground(new java.awt.Color(153, 255, 255));
         buttonborrar.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
@@ -108,7 +108,7 @@ public class Sistema extends javax.swing.JFrame {
                 buttonborrarActionPerformed(evt);
             }
         });
-        jPanel1.add(buttonborrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, 320, -1));
+        jPanel1.add(buttonborrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 290, 320, -1));
 
         buttonagrup.setBackground(new java.awt.Color(153, 255, 255));
         buttonagrup.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
@@ -119,7 +119,7 @@ public class Sistema extends javax.swing.JFrame {
                 buttonagrupActionPerformed(evt);
             }
         });
-        jPanel1.add(buttonagrup, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 200, 350, -1));
+        jPanel1.add(buttonagrup, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 200, 350, -1));
 
         jButton4.setBackground(new java.awt.Color(153, 255, 255));
         jButton4.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
@@ -130,7 +130,7 @@ public class Sistema extends javax.swing.JFrame {
                 jButton4ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 380, 340, -1));
+        jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 380, 340, -1));
 
         jButton5.setBackground(new java.awt.Color(153, 255, 255));
         jButton5.setFont(new java.awt.Font("Tahoma", 3, 16)); // NOI18N
@@ -140,9 +140,9 @@ public class Sistema extends javax.swing.JFrame {
                 jButton5ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 480, 80, -1));
+        jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 530, 80, -1));
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 500, 520));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 640, 570));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
